@@ -34,6 +34,10 @@
 }
 
 @media (max-width: 600px){
+  .blogs-main-news{
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 300px 1fr;
+  }
   .blogs-posts-container .posts-container {
     max-width: 95%;
   }
