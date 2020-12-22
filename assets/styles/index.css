@@ -167,7 +167,6 @@ BLOGS CONTAINER #####################
   background-color: #929aab;
   padding: 40px 30px 40px;
   color: #393e46;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
 .blogs-main-news {
   display: grid;
@@ -182,8 +181,6 @@ BLOGS CONTAINER #####################
 
 .blogs-news-img-container {
   grid-column-start: 1;
-  display: flex;
-  justify-content: flex-end;
 }
 
 .blogs-news-img-container img{
