@@ -7,10 +7,10 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@500&display=swap" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/styles/media.css">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
   <link rel="icon" href="./assets/logo/favicon.png">
+  <link rel="stylesheet" href="./assets/styles/media.css">
   <title>Rogelio Medina</title>
 </head>
 <body>
@@ -22,29 +22,49 @@
         </a>
       </div>
       <ul>
-        <li><a href="./proyectos.html">Portafolio</a></li>
+        <li><a href="./proyectos.html">Projects</a></li>
         <li><a href="./perfil.html">About me</a></li>
       </ul>
     </nav>
   </header>
-  <main class='profile--main'>
-    <section class='about-main-container'>
-      <div class='grid_container about-main'>
-        <h3>Rogelio Medina</h3>
-        <div class='about-info-container'>
+  <main class='blog--main'>
+    <section class='grid_container blogpost-img-container'>
+      <img src='./assets/img/led_cube.png' alt='' />
+    </section>
+
+    <section class='blogpost-main-container'>
+      <div class='grid_container'>
+        <h3>Project</h3>
+        <article>
+          <div class='blogpost-main-container-header'>
+            <h1>8X8X8 Led cube</h1>
+            <h4>Dic 2020</h4>
+          </div>
+
+          <h2>Description</h2>
+          <p>This is a led cube that was implemented using VHDL and a DE-2 board, the purpose of this project was to use the basic of digital systems and implement all the knowledge acquired about this topic. This led cube was made to follow the beat of a song, Into the void - kiss, and making different patterns by turning on and off its leds. All the project was made form scratch including the cube assembling. The leds used on this project were of 20mA and 3.2V
+          </p>
+
+          <h2>Used Technologies</h2>
           <p>
-            I am an undergraduate student starting my third year on Information Technologies at Tecnológico de Monterrey. I love learning new things every day, therefore I am also a Platzi (online platform) student. I have made some personal projects using React, JavaScript, HTML and CSS. I have also worked at my university with C++, C, Python, Java and Matlab. I love teaching what I learn because for me that is the best way to grow as a person. I adapt very well to new situations, love working with a team and have a very good verbal communication in Spanish. I see my self as a person who can work under pressure and still give a good performance..</p>
-        </div>
-        <div class='about-img-container'>
-          <div>
-            <img src='./assets/img/rogelio1.jpeg' alt='imagen principal' />
-          </div>
-          <div>
-            <img src='./assets/img/rogelioJamaica.jpeg' alt='imagen principal' />
-          </div>
-        </div>
+            <ul>
+              <li>VHDL</li>
+              <li>DE-2 Altera board</li>
+            </ul>
+          </p>
+
+          <h2>Links</h2>
+          <ul>
+            <li><a href="https://youtu.be/m5wf9QhJaiM">YouTube video</a></li>
+            <li><a href="https://github.com/RogeCS/LED-Cube-VHDL">Repository</a></li>
+          </ul>
+
+          <h2>What I learned</h2>
+          <p>In this project I learned how to use multiplexers in order to select the output that the cube was going to have depending on a global clock. I also know how to make frequency dividers by implementing counters in VHDL and I know how to properly use the board DE-2. Finally learned to solve problems under pressure and to find different ways to get the desired result and choose which one was the best for being implemented.</p>
+        </article>
       </div>
     </section>
+
     <section class='contact-upper-container'>
       <div class='grid_container contact-main-container'>
         <div class='contact-left'>
